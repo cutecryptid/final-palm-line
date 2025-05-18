@@ -8,10 +8,13 @@ The led rings are there for fun.
 
 This is intended for Nintendo Switch as for the time of writing, but since the controller is presented as the HORI Pokken Tournament controller, it's very likely that Steam and the PS5 can pick it up without a hitch.
 
+Please refer to the building instructions to compile it and flash it to your ProMicro or ProMicro clone. Should work out of the box with the proper hardware and wiring.
+
 ### What's in 
 
 Complete working project with some nice LED Lighting.
 Mapped all the required buttons and the two levers for Theatrhythm Final Bar Line and Groove Coaster
+
 
 ### What's missing 
 
@@ -49,6 +52,15 @@ Please refer to the Pin Mapping section of the `finalpalm.ino` file to remap you
 #define PIN_PLUS 3
 #define PIN_HOME 21
 ```
+
+### Building Instructions
+
+- Download Arduino IDE, 
+- Download the Bounce2 Library inside the Arduino IDE
+- Download Arduino Lufa from https://github.com/Palatis/Arduino-Lufa and follow the instructions on it's repository
+- Build and Flash for your ATMEGA32U4 Board
+- Have Fun
+
 
 ### Credits 
 
