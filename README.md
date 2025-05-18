@@ -12,15 +12,19 @@ Please refer to the building instructions to compile it and flash it to your Pro
 
 ### What's in 
 
-Complete working project with some nice LED Lighting.
+Complete working project with some nice LED Lighting. 
+
 Mapped all the required buttons and the two levers for Theatrhythm Final Bar Line and Groove Coaster
 
 
 ### What's missing 
 
 Some buttons aren't mapped because the ProMicro has only 18 inputs and I wanted the LED lighting. The missing buttons are -, L3, R3, ZL and ZR. 
+
 No way of using the missing buttons through combos. 
+
 The LED lighting cannot be modified as of now and the code is a bit messy because I ported it from my initial naive project and it worked a bit different than the project I ended up forking. 
+
 Every typical FIght Stick functionality (SOCD, DPAD and Analog modes) has been removed in favor of simplicity and for the lack of a proper use case in the intended purpose of this fork.
 
 ### Pin Mapping 
